@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+:root {
+    --main-bg-color: rgb(42, 101, 165);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body main {
+    background-color: aliceblue;
+    padding: 1px;
+}
+nav{
+    display:inline;
+    
+}
+
+.logo{
+   
+    display: flex;
+    align-items: baseline;
+    height: 31px;
+
+}
+.logo img{
+    
+    width: 28vh;
+    padding: 0 25px;
+
+}
+
+header  {
+    margin: 0;
+    padding: 0;
+    position:sticky;
+    top: 10px;
+
+    height: auto;
+    width: auto;
+
+    text-align: center;
+    background-color: rgb(42, 101, 165);
+
+
+    font-family: 'Playfair Display', serif;
+}
+
+header nav h1 {
+   
+    
+    background-color: rgb(42, 101, 165);;
+}
+
+nav ul {
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+}
+
+nav ul li {
+    height: auto;
+    width: auto;
+
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+
+}
+
+.flex-all-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+footer {
+    
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: wheat;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/* this is the form for index */
+ 
+
+/* Styling the Form (Color, Padding, Shadow) */
+.form {
+    position: sticky;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+
+/* Styling form-control input,
+select, textarea */
+.form-control input {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: 'Playfair Display', serif;
+    padding: 12px;
+    display: block;
+    width: 95%;
+}
+.btn form{
+    display: inline-flex;
+    width: 43vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 20p
+    
+}
+
+
+
+/* Styling Button */
+button {
+    background-color:var(--main-bg-color);
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    display:flexbox;
+    flex: content;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    font-weight: bolder;
+}
